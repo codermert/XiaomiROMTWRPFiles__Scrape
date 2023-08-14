@@ -26,5 +26,5 @@ jobs:
         git add models.json
         git config --global user.email "codermert@bk.ru"
         git config --global user.name "codermert"
-        git commit -m "🕰 Otomatik Veri Güncelleme"
+        git commit -m "🕰 Otomatik Veri Güncelleme » @codermert"
         git push
