@@ -1,4 +1,4 @@
-name: Fetch and Update Data
+name: AUTO DATA SCRAPER
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Fetch Data and Update ilanlar.json
+    - name: Fetch Data and Update models.json
       run: |
         node allpages.js  # Script
         git add models.json
