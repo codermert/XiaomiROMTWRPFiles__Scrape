@@ -22,8 +22,8 @@ jobs:
       
     - name: Fetch Data and Update ilanlar.json
       run: |
-        node index.js  # Script
-        git add veriler.json
+        node allpages.js  # Script
+        git add models.json
         git config --global user.email "codermert@bk.ru"
         git config --global user.name "codermert"
         git commit -m "🕰 Otomatik Veri Güncelleme"
