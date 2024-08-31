@@ -2,29 +2,33 @@ name: AUTO DATA SCRAPER
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalıştır
+    - cron: '*/1 * * * *'  # Runs every minute
+  workflow_dispatch:  # Allows you to manually trigger the workflow
 
 jobs:
-  fetch-and-update-data:
+  scrape:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scraper
+        run: npm start
       
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-        
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Fetch Data and Update models.json
-      run: |
-        node allpages.js  # Script
-        git add models.json
-        git config --global user.email "codermert@bk.ru"
-        git config --global user.name "codermert"
-        git commit -m "🕰 Otomatik Veri Güncelleme » @codermert"
-        git push
+      - name: Fetch Data and Update models.json
+        run: |
+          node allpages.js  
+          git add models.json
+          git config --global user.email "codermert@bk.ru"
+          git config --global user.name "codermert"
+          git commit -m "🕰 Otomatik Veri Güncelleme » @codermert"
+          git push
