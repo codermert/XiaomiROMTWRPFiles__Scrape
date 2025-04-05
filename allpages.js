@@ -4,7 +4,24 @@ const fs = require('fs');
 
 const mainUrl = 'https://mifirm.net/';
 
-axios.get(mainUrl)
+// Tarayıcı benzeri headers oluştur
+const headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'Referer': 'https://mifirm.net/',
+    'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Upgrade-Insecure-Requests': '1'
+};
+
+axios.get(mainUrl, { headers })
   .then(response => {
     const html = response.data;
     const $ = cheerio.load(html);
@@ -34,7 +51,9 @@ axios.get(mainUrl)
 
     // Modellerin her birinin sayfasını çekip içeriği çıkaralım
     const scrapeModelPages = models.map(model => {
-      return axios.get(model.modelPageLink)
+      // Her sayfa için 1 saniye bekle
+      return new Promise(resolve => setTimeout(resolve, 1000))
+        .then(() => axios.get(model.modelPageLink, { headers }))
         .then(response => {
           const modelHtml = response.data;
           const model$ = cheerio.load(modelHtml);
@@ -67,7 +86,7 @@ axios.get(mainUrl)
           };
         })
         .catch(error => {
-          console.error('Hata:', error);
+          console.error(`Hata (${model.modelPageLink}):`, error.message);
           return model;
         });
     });
@@ -91,5 +110,9 @@ axios.get(mainUrl)
       });
   })
   .catch(error => {
-    console.error('Hata:', error);
+    console.error('Ana sayfa hatası:', error.message);
+    if (error.response) {
+      console.error('Durum kodu:', error.response.status);
+      console.error('Yanıt başlıkları:', error.response.headers);
+    }
   });
