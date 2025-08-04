@@ -18,11 +18,10 @@ jobs:
         uses: actions/setup-node@v4  # En güncel versiyon
         with:
           node-version: '20.x'  # Node.js 20 LTS kullan
-          cache: 'npm'
           
       - name: Install dependencies
         run: |
-          npm ci  # npm install yerine npm ci kullan (daha hızlı ve güvenli)
+          npm install  # package-lock.json olmadığı için npm install kullan
           
       - name: Run scraper
         run: |
