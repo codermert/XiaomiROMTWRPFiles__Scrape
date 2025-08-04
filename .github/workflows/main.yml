@@ -2,28 +2,59 @@ name: AUTO DATA SCRAPER
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
-  workflow_dispatch:  # Allows you to manually trigger the workflow
+    - cron: '0 */6 * * *'  # Her 6 saatte bir çalışır (daha makul)
+    # - cron: '*/5 * * * *'  # Her 5 dakikada bir (test için)
+  workflow_dispatch:  # Manuel tetikleme imkanı sağlar
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+      
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4  # En güncel versiyon
+          
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # En güncel versiyon
         with:
-          node-version: '18.x'
-
+          node-version: '20.x'  # Node.js 20 LTS kullan
+          cache: 'npm'
+          
       - name: Install dependencies
-        run: npm install
-
-      - name: Fetch Data and Update models.json
         run: |
-          node allpages.js  
-          git config --global user.email "codermert@bk.ru"
-          git config --global user.name "codermert"
+          npm ci  # npm install yerine npm ci kullan (daha hızlı ve güvenli)
+          
+      - name: Run scraper
+        run: |
+          echo "Scraper başlatılıyor..."
+          node allpages.js
+          echo "Scraper tamamlandı."
+          
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Değişiklikler tespit edildi:"
+            git status --short
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Hiç değişiklik yok."
+          fi
+          
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "codermert@bk.ru"
+          git config --local user.name "codermert"
           git add models.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🕰 Otomatik Veri Güncelleme » @codermert" && git push)
+          git commit -m "🕰 Otomatik Veri Güncelleme » $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+          
+      - name: Upload artifact (backup)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data-${{ github.run_number }}
+          path: models.json
+          retention-days: 7
