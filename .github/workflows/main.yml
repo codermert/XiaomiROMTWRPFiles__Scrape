@@ -2,8 +2,8 @@ name: AUTO DATA SCRAPER
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Her 6 saatte bir çalışır (daha makul)
-    # - cron: '*/5 * * * *'  # Her 5 dakikada bir (test için)
+    - cron: '*/5 * * * *'  # Her 6 saatte bir çalışır (daha makul)
+    
   workflow_dispatch:  # Manuel tetikleme imkanı sağlar
 
 jobs:
