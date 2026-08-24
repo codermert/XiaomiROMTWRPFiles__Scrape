@@ -675,6 +675,14 @@
           "downloadLink": " https://mifirm.net/download/21711"
         },
         {
+          "miuiVersion": "OS3.0.305.0.WPSTWXM",
+          "androidVersion": "16.0",
+          "fileSize": "7.0G",
+          "updateAt": "2026-08-25 06:48:13",
+          "downloaded": "0",
+          "downloadLink": "https://mifirm.net/downloadzip/28904"
+        },
+        {
           "miuiVersion": "OS3.0.304.0.WPSTWXM",
           "androidVersion": "16.0",
           "fileSize": "7.0G",
@@ -707,6 +715,14 @@
           "downloadLink": " https://mifirm.net/download/21712"
         },
         {
+          "miuiVersion": "OS3.0.305.0.WPSJPXM",
+          "androidVersion": "16.0",
+          "fileSize": "7.1G",
+          "updateAt": "2026-08-25 06:48:17",
+          "downloaded": "0",
+          "downloadLink": "https://mifirm.net/downloadzip/28906"
+        },
+        {
           "miuiVersion": "OS3.0.304.0.WPSJPXM",
           "androidVersion": "16.0",
           "fileSize": "7.1G",
@@ -737,6 +753,14 @@
           "updateAt": "2026-06-04 12:18:04",
           "downloaded": "196",
           "downloadLink": " https://mifirm.net/download/21729"
+        },
+        {
+          "miuiVersion": "OS3.0.305.0.WPSTRXM",
+          "androidVersion": "16.0",
+          "fileSize": "7.1G",
+          "updateAt": "2026-08-25 06:48:15",
+          "downloaded": "0",
+          "downloadLink": "https://mifirm.net/downloadzip/28905"
         },
         {
           "miuiVersion": "OS3.0.304.0.WPSTRXM",
@@ -3817,7 +3841,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.1G",
           "updateAt": "2026-04-14 08:48:01",
-          "downloaded": "2392",
+          "downloaded": "2393",
           "downloadLink": " https://mifirm.net/download/21183"
         },
         {
@@ -4368,7 +4392,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.2G",
           "updateAt": "2026-06-03 20:48:01",
-          "downloaded": "1170",
+          "downloaded": "1171",
           "downloadLink": " https://mifirm.net/download/21721"
         },
         {
@@ -4392,7 +4416,7 @@
           "androidVersion": "15.0",
           "fileSize": "8.0G",
           "updateAt": "2026-03-02 11:30:02",
-          "downloaded": "2029",
+          "downloaded": "2030",
           "downloadLink": " https://mifirm.net/download/20734"
         },
         {
@@ -5718,7 +5742,7 @@
           "androidVersion": "16.0",
           "fileSize": "10.29 GB",
           "updateAt": "2026-03-10 03:30:12",
-          "downloaded": "100",
+          "downloaded": "101",
           "downloadLink": " https://mifirm.net/download/20859"
         },
         {
@@ -8933,7 +8957,7 @@
           "androidVersion": "17.0",
           "fileSize": "7.7G",
           "updateAt": "2026-07-15 09:24:16",
-          "downloaded": "193",
+          "downloaded": "194",
           "downloadLink": "https://mifirm.net/downloadzip/28471"
         },
         {
@@ -9497,7 +9521,7 @@
           "androidVersion": "16",
           "fileSize": "8.9 GB",
           "updateAt": "2026-04-15 14:30:03",
-          "downloaded": "5255",
+          "downloaded": "5256",
           "downloadLink": " https://mifirm.net/downloadeu/11226 "
         },
         {
@@ -13233,7 +13257,7 @@
           "androidVersion": "16.0",
           "fileSize": "7.6G",
           "updateAt": "2026-08-14 02:48:02",
-          "downloaded": "964",
+          "downloaded": "966",
           "downloadLink": " https://mifirm.net/download/22417"
         },
         {
@@ -13297,7 +13321,7 @@
           "androidVersion": "15.0",
           "fileSize": "6.9G",
           "updateAt": "2025-09-02 18:48:02",
-          "downloaded": "10714",
+          "downloaded": "10715",
           "downloadLink": " https://mifirm.net/download/18357"
         },
         {
@@ -13697,7 +13721,7 @@
           "androidVersion": "15.0",
           "fileSize": "6.7G",
           "updateAt": "2025-09-22 19:18:03",
-          "downloaded": "43",
+          "downloaded": "44",
           "downloadLink": " https://mifirm.net/download/18509"
         },
         {
@@ -14897,7 +14921,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.7G",
           "updateAt": "2026-07-14 09:48:02",
-          "downloaded": "883",
+          "downloaded": "884",
           "downloadLink": " https://mifirm.net/download/22096"
         },
         {
@@ -16262,7 +16286,7 @@
           "androidVersion": "16.0",
           "fileSize": "8.1G",
           "updateAt": "2026-05-25 22:30:01",
-          "downloaded": "2074",
+          "downloaded": "2075",
           "downloadLink": " https://mifirm.net/download/21611"
         },
         {
@@ -16342,7 +16366,7 @@
           "androidVersion": "16.0",
           "fileSize": "4.8G",
           "updateAt": "2026-07-16 23:24:05",
-          "downloaded": "57",
+          "downloaded": "58",
           "downloadLink": "https://mifirm.net/downloadzip/28486"
         },
         {
@@ -24635,7 +24659,7 @@
           "androidVersion": "15.0",
           "fileSize": "7.6G",
           "updateAt": "2025-11-29 23:42:01",
-          "downloaded": "2220",
+          "downloaded": "2221",
           "downloadLink": " https://mifirm.net/download/19630"
         },
         {
@@ -25652,7 +25676,7 @@
           "androidVersion": "16.0",
           "fileSize": "8.2G",
           "updateAt": "2026-07-03 14:12:02",
-          "downloaded": "2289",
+          "downloaded": "2291",
           "downloadLink": " https://mifirm.net/download/22013"
         },
         {
@@ -25740,7 +25764,7 @@
           "androidVersion": "15.0",
           "fileSize": "7.6G",
           "updateAt": "2025-05-15 00:30:01",
-          "downloaded": "862",
+          "downloaded": "864",
           "downloadLink": " https://mifirm.net/download/16842"
         },
         {
@@ -25796,7 +25820,7 @@
           "androidVersion": "14.0",
           "fileSize": "6.8G",
           "updateAt": "2025-01-16 15:30:01",
-          "downloaded": "3593",
+          "downloaded": "3594",
           "downloadLink": " https://mifirm.net/download/15204"
         },
         {
@@ -27566,7 +27590,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.7G",
           "updateAt": "2026-04-04 09:48:01",
-          "downloaded": "1085",
+          "downloaded": "1086",
           "downloadLink": " https://mifirm.net/download/21094"
         },
         {
@@ -27590,7 +27614,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.68 GB",
           "updateAt": "2025-12-31 03:30:04",
-          "downloaded": "363",
+          "downloaded": "368",
           "downloadLink": " https://mifirm.net/download/20059"
         },
         {
@@ -38930,7 +38954,7 @@
           "androidVersion": "16.0",
           "fileSize": "8.0G",
           "updateAt": "2026-04-02 09:48:04",
-          "downloaded": "137",
+          "downloaded": "138",
           "downloadLink": " https://mifirm.net/download/21055"
         },
         {
@@ -40486,7 +40510,7 @@
           "androidVersion": "16.0",
           "fileSize": "9.5G",
           "updateAt": "2026-07-21 01:30:02",
-          "downloaded": "1353",
+          "downloaded": "1354",
           "downloadLink": " https://mifirm.net/download/22165"
         },
         {
@@ -47623,7 +47647,7 @@
           "androidVersion": "16.0",
           "fileSize": "7.5G",
           "updateAt": "2026-08-05 06:48:01",
-          "downloaded": "1874",
+          "downloaded": "1875",
           "downloadLink": " https://mifirm.net/download/22331"
         },
         {
@@ -52987,7 +53011,7 @@
           "androidVersion": "16.0",
           "fileSize": "8.3G",
           "updateAt": "2025-11-25 04:18:01",
-          "downloaded": "1270",
+          "downloaded": "1271",
           "downloadLink": " https://mifirm.net/download/19489"
         },
         {
@@ -55018,7 +55042,7 @@
           "androidVersion": "14.0",
           "fileSize": "2.7G",
           "updateAt": "2024-06-29 15:15:17",
-          "downloaded": "136734",
+          "downloaded": "136736",
           "downloadLink": " https://mifirm.net/download/12678"
         },
         {
@@ -57006,7 +57030,7 @@
           "androidVersion": "14.0",
           "fileSize": "2.6G",
           "updateAt": "2024-07-08 22:54:15",
-          "downloaded": "869",
+          "downloaded": "871",
           "downloadLink": "https://mifirm.net/downloadzip/16917"
         },
         {
@@ -73839,7 +73863,7 @@
           "androidVersion": "16.0",
           "fileSize": "7.6G",
           "updateAt": "2026-07-20 10:12:01",
-          "downloaded": "1173",
+          "downloaded": "1177",
           "downloadLink": " https://mifirm.net/download/22158"
         },
         {
@@ -76513,7 +76537,7 @@
           "androidVersion": "16.0",
           "fileSize": "6.0G",
           "updateAt": "2026-08-20 03:36:08",
-          "downloaded": "27",
+          "downloaded": "28",
           "downloadLink": "https://mifirm.net/downloadzip/28867"
         },
         {
@@ -82332,7 +82356,7 @@
           "androidVersion": "15.0",
           "fileSize": "6.8G",
           "updateAt": "2026-08-04 18:36:02",
-          "downloaded": "2174",
+          "downloaded": "2175",
           "downloadLink": " https://mifirm.net/download/22323"
         },
         {
@@ -82340,7 +82364,7 @@
           "androidVersion": "15.0",
           "fileSize": "6.8G",
           "updateAt": "2026-06-10 19:30:02",
-          "downloaded": "5538",
+          "downloaded": "5540",
           "downloadLink": " https://mifirm.net/download/21819"
         },
         {
@@ -82492,7 +82516,7 @@
           "androidVersion": "13.0",
           "fileSize": "6.4G",
           "updateAt": "2023-11-19 02:54:01",
-          "downloaded": "76732",
+          "downloaded": "76733",
           "downloadLink": " https://mifirm.net/download/10939"
         },
         {
@@ -86235,7 +86259,7 @@
           "androidVersion": "14.0",
           "fileSize": "7.4G",
           "updateAt": "2024-03-01 04:48:01",
-          "downloaded": "584",
+          "downloaded": "588",
           "downloadLink": " https://mifirm.net/download/11714"
         },
         {
@@ -90967,7 +90991,7 @@
           "androidVersion": "15.0",
           "fileSize": "8.6G",
           "updateAt": "2025-12-26 19:30:02",
-          "downloaded": "2944",
+          "downloaded": "2945",
           "downloadLink": " https://mifirm.net/download/19944"
         },
         {
@@ -90975,7 +90999,7 @@
           "androidVersion": "15.0",
           "fileSize": "8.5G",
           "updateAt": "2025-11-04 09:36:02",
-          "downloaded": "1785",
+          "downloaded": "1786",
           "downloadLink": " https://mifirm.net/download/19260"
         },
         {
@@ -108493,7 +108517,7 @@
           "androidVersion": "14.0",
           "fileSize": "6.6G",
           "updateAt": "2024-10-25 22:42:01",
-          "downloaded": "33141",
+          "downloaded": "33142",
           "downloadLink": " https://mifirm.net/download/14121"
         },
         {
@@ -112227,7 +112251,7 @@
           "androidVersion": "15.0",
           "fileSize": "6.5G",
           "updateAt": "2026-04-23 00:30:01",
-          "downloaded": "2293",
+          "downloaded": "2297",
           "downloadLink": " https://mifirm.net/download/21263"
         },
         {
@@ -112419,7 +112443,7 @@
           "androidVersion": "13.0",
           "fileSize": "6.2G",
           "updateAt": "2023-12-25 01:30:02",
-          "downloaded": "8924",
+          "downloaded": "8926",
           "downloadLink": " https://mifirm.net/download/11211"
         },
         {
@@ -114330,7 +114354,7 @@
           "androidVersion": "13.0",
           "fileSize": "6.0G",
           "updateAt": "2026-06-30 19:06:02",
-          "downloaded": "817",
+          "downloaded": "818",
           "downloadLink": " https://mifirm.net/download/21985"
         },
         {
@@ -134804,7 +134828,7 @@
           "androidVersion": "12.0",
           "fileSize": "4.1G",
           "updateAt": "2023-02-27 10:12:03",
-          "downloaded": "2213",
+          "downloaded": "2214",
           "downloadLink": " https://mifirm.net/download/9122"
         },
         {
@@ -149423,7 +149447,7 @@
           "androidVersion": "14.0",
           "fileSize": "7.8G",
           "updateAt": "2024-10-25 01:30:03",
-          "downloaded": "791",
+          "downloaded": "793",
           "downloadLink": " https://mifirm.net/download/14110"
         },
         {
@@ -167551,7 +167575,7 @@
           "androidVersion": "14.0",
           "fileSize": "4.8G",
           "updateAt": "2025-01-13 04:12:03",
-          "downloaded": "2646",
+          "downloaded": "2647",
           "downloadLink": " https://mifirm.net/download/14985"
         },
         {
@@ -174036,7 +174060,7 @@
           "androidVersion": "11.0",
           "fileSize": "4.3G",
           "updateAt": "2024-04-07 14:18:02",
-          "downloaded": "50764",
+          "downloaded": "50765",
           "downloadLink": " https://mifirm.net/download/11967"
         },
         {
@@ -195764,7 +195788,7 @@
           "androidVersion": "11.0",
           "fileSize": "5.4G",
           "updateAt": "2022-11-14 21:18:10",
-          "downloaded": "482",
+          "downloaded": "483",
           "downloadLink": " https://mifirm.net/download/8471"
         },
         {
@@ -201926,7 +201950,7 @@
           "androidVersion": "13.0",
           "fileSize": "5.4G",
           "updateAt": "2025-01-13 09:48:02",
-          "downloaded": "21735",
+          "downloaded": "21736",
           "downloadLink": " https://mifirm.net/download/15033"
         },
         {
@@ -241698,7 +241722,7 @@
           "androidVersion": "13.0",
           "fileSize": "6.2G",
           "updateAt": "2024-08-06 02:48:01",
-          "downloaded": "59470",
+          "downloaded": "59471",
           "downloadLink": " https://mifirm.net/download/12991"
         },
         {
@@ -255776,7 +255800,7 @@
           "androidVersion": "13.0",
           "fileSize": "5.2G",
           "updateAt": "2023-05-29 20:00:01",
-          "downloaded": "85661",
+          "downloaded": "85663",
           "downloadLink": " https://mifirm.net/download/9905"
         },
         {
@@ -257174,7 +257198,7 @@
           "androidVersion": "12.0",
           "fileSize": "4.3G",
           "updateAt": "2024-07-13 00:24:02",
-          "downloaded": "68047",
+          "downloaded": "68048",
           "downloadLink": " https://mifirm.net/download/12791"
         },
         {
@@ -260488,7 +260512,7 @@
           "androidVersion": "13.0",
           "fileSize": "6.6G",
           "updateAt": "2023-12-04 16:06:02",
-          "downloaded": "99287",
+          "downloaded": "99288",
           "downloadLink": " https://mifirm.net/download/11060"
         },
         {
@@ -277975,7 +277999,7 @@
           "androidVersion": "12.0",
           "fileSize": "4.9G",
           "updateAt": "2023-07-22 05:00:01",
-          "downloaded": "85300",
+          "downloaded": "85304",
           "downloadLink": " https://mifirm.net/download/10262"
         },
         {
@@ -288012,7 +288036,7 @@
           "androidVersion": "10.0",
           "fileSize": "4.0G",
           "updateAt": "2021-12-01 18:48:02",
-          "downloaded": "1859",
+          "downloaded": "1861",
           "downloadLink": " https://mifirm.net/download/6056"
         },
         {
@@ -290525,7 +290549,7 @@
           "androidVersion": "11.0",
           "fileSize": "4.0G",
           "updateAt": "2022-08-10 18:42:02",
-          "downloaded": "80170",
+          "downloaded": "80171",
           "downloadLink": " https://mifirm.net/download/7914"
         },
         {
@@ -295137,7 +295161,7 @@
           "androidVersion": "11.0",
           "fileSize": "1.8G",
           "updateAt": "2022-08-26 20:00:09",
-          "downloaded": "1687",
+          "downloaded": "1692",
           "downloadLink": "https://mifirm.net/downloadzip/11605"
         },
         {
@@ -297060,7 +297084,7 @@
           "androidVersion": "12.0",
           "fileSize": "4.3G",
           "updateAt": "2023-02-04 03:06:02",
-          "downloaded": "270118",
+          "downloaded": "270119",
           "downloadLink": " https://mifirm.net/download/8944"
         },
         {
@@ -304368,7 +304392,7 @@
           "androidVersion": "12.0",
           "fileSize": "4.6G",
           "updateAt": "2022-11-09 19:30:03",
-          "downloaded": "197467",
+          "downloaded": "197468",
           "downloadLink": " https://mifirm.net/download/8450"
         },
         {
@@ -332470,7 +332494,7 @@
           "androidVersion": "9.0",
           "fileSize": "3.6G",
           "updateAt": "2020-12-01 01:30:01",
-          "downloaded": "14170",
+          "downloaded": "14171",
           "downloadLink": " https://mifirm.net/download/4547"
         },
         {
@@ -332918,7 +332942,7 @@
           "androidVersion": "11.0",
           "fileSize": "2.9G",
           "updateAt": "2022-10-11 10:18:05",
-          "downloaded": "29807",
+          "downloaded": "29808",
           "downloadLink": " https://mifirm.net/download/8260"
         },
         {
@@ -334127,7 +334151,7 @@
           "androidVersion": "11.0",
           "fileSize": "3.7G",
           "updateAt": "2022-06-28 08:36:02",
-          "downloaded": "66948",
+          "downloaded": "66955",
           "downloadLink": " https://mifirm.net/download/7157"
         },
         {
@@ -335807,7 +335831,7 @@
           "androidVersion": "11.0",
           "fileSize": "2.2G",
           "updateAt": "2022-09-26 20:36:15",
-          "downloaded": "2337",
+          "downloaded": "2345",
           "downloadLink": "https://mifirm.net/downloadzip/11792"
         },
         {
@@ -341050,7 +341074,7 @@
           "androidVersion": "10.0",
           "fileSize": "3.2G",
           "updateAt": "2022-01-08 12:36:02",
-          "downloaded": "161719",
+          "downloaded": "161720",
           "downloadLink": " https://mifirm.net/download/6246"
         },
         {
@@ -358588,7 +358612,7 @@
           "androidVersion": "10.0",
           "fileSize": "2.2G",
           "updateAt": "2021-12-16 04:06:08",
-          "downloaded": "22279",
+          "downloaded": "22282",
           "downloadLink": "https://mifirm.net/downloadzip/9379"
         },
         {
@@ -466997,7 +467021,7 @@
           "androidVersion": "9.0",
           "fileSize": "2.4G",
           "updateAt": "2021-01-20 00:30:02",
-          "downloaded": "159141",
+          "downloaded": "159142",
           "downloadLink": " https://mifirm.net/download/4689"
         },
         {
@@ -473439,7 +473463,7 @@
           "androidVersion": "16.0",
           "fileSize": "10G",
           "updateAt": "2026-08-18 10:30:02",
-          "downloaded": "143",
+          "downloaded": "148",
           "downloadLink": " https://mifirm.net/download/22467"
         },
         {
